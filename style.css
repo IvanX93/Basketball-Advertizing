@@ -9,8 +9,6 @@ body{
     background-color:#f4f4f4;
 }
 
-/* Navigation */
-
 header{
     background:#111;
     position:fixed;
@@ -50,8 +48,6 @@ nav{
 .nav-links a:hover{
     color:#ff7b00;
 }
-
-/* Hero Section */
 
 .hero{
     height:100vh;
@@ -99,8 +95,6 @@ nav{
     background:#ff5500;
 }
 
-/* Features */
-
 .features{
     display:flex;
     justify-content:center;
@@ -122,8 +116,6 @@ nav{
     color:#ff7b00;
     margin-bottom:15px;
 }
-
-/* Gallery */
 
 .gallery{
     padding:80px 50px;
@@ -154,16 +146,12 @@ nav{
     transform:scale(1.05);
 }
 
-/* Footer */
-
 footer{
     background:#111;
     color:white;
     text-align:center;
     padding:25px;
 }
-
-/* Responsive */
 
 @media(max-width:768px){
 
