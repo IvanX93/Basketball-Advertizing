@@ -44,7 +44,7 @@ nav{
 }
 
 .profile-hero{
-    height:60vh;
+    height:50vh;
     background:
     linear-gradient(
         rgba(0,0,0,0.6),
@@ -74,19 +74,36 @@ nav{
     font-size:24px;
 }
 
+.coach-gallery{
+    max-width:1100px;
+    margin:50px auto;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:0 20px;
+    flex-wrap:wrap;
+}
+
+.coach-gallery img{
+    width:320px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.coach-gallery img:hover{
+    transform:scale(1.05);
+}
+
 .profile-container{
     max-width:1100px;
-    margin:60px auto;
+    margin:40px auto 80px;
     background:white;
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-.profile-image img{
-    width:100%;
-    height:500px;
-    object-fit:cover;
 }
 
 .profile-info{
@@ -114,6 +131,16 @@ nav{
 
     .overlay h1{
         font-size:40px;
+    }
+
+    .coach-gallery{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .coach-gallery img{
+        width:90%;
+        max-width:350px;
     }
 
     .info-grid{
